@@ -2,3 +2,4 @@ pristine-tar.diff
 listed03-linux-only
 rmt.8-header-wrong
 When-extracting-skip-.-members.patch
+git_add_file.patch

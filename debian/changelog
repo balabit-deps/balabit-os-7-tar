@@ -1,3 +1,11 @@
+tar (1.29b-2ubuntu0.1) bionic; urgency=medium
+
+  * debian/patches/git_add_file.patch:
+    - backport "Fix the --add-file option." upstream commit,
+      thanks Martin Vogt (lp: #1809827)
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Mon, 21 Jan 2019 17:38:11 +0100
+
 tar (1.29b-2) unstable; urgency=medium
 
   * add suggests tar-doc, closes: #856958
