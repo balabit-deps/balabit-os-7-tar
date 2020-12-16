@@ -1,3 +1,16 @@
+tar (1.29b-2ubuntu0.2) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Infinite read loop
+    - debian/patches/Fix-CVE-2018-20482.patch: Add handling for short read
+      condition in sparse_dump_region() of src/sparse.c.
+    - CVE-2018-20482
+  * SECURITY UPDATE: NULL pointer dereference
+    - debian/patches/CVE-2019-9923.patch: Check for NULL return value from
+      find_next_block in src/sparse.c.
+    - CVE-2019-9923
+
+ -- Avital Ostromich <avital.ostromich@canonical.com>  Tue, 15 Dec 2020 20:39:17 -0500
+
 tar (1.29b-2ubuntu0.1) bionic; urgency=medium
 
   * debian/patches/git_add_file.patch:
